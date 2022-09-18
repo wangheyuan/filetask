@@ -44,7 +44,7 @@ public class AppTest
     public void addProject()
     {
         ProjectSyncDTO projectDTO = new ProjectSyncDTO();
-        projectDTO.setProjectName("test1");
+        projectDTO.setProjectName("test11");
         List<ProjectDirDTO> dirs = new ArrayList<>();
         projectDTO.setDirs(dirs);
         for (int i=1; i<3; i++) {

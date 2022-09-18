@@ -81,10 +81,10 @@ public class ProjectService implements IProjectService {
         }
         log.info("-----------project--------------");
         log.info(JSONObject.toJSONString(project));
-        Project result = projectDao.save(project);
+//        Project result = projectDao.save(project);
         log.info("-----------projectVo--------------");
-        log.info(JSONObject.toJSONString(result));
-        return result;
+//        log.info(JSONObject.toJSONString(result));
+        return project;
     }
 
     /**
